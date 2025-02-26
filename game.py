@@ -21,7 +21,7 @@ sprite_sheet = game_classes.player_1(sprite_sheet_image)
 bg = (50, 50, 50)
 black = (0, 0, 0)
 
-# create animation list 
+# create animation list
 animation_list = []
 animation_steps = 6
 action = 0
