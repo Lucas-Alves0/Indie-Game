@@ -10,9 +10,10 @@ screen = pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption('Spritesheets')
 
 sprites = {
-    'generic_blue':'C:/Users/lucas.paula_kovi/VSCodeProjects/MyOwnProjects/GameProject/game_assets/players/generic_char_v0.2/generic_char_v0.2/png/blue/char_blue_1.png',
-    'generic_red':'C:/Users/lucas.paula_kovi/VSCodeProjects/MyOwnProjects/GameProject/game_assets/players/generic_char_v0.2/generic_char_v0.2/png/blue/char_red_1.png',
-    'generic_green':'C:/Users/lucas.paula_kovi/VSCodeProjects/MyOwnProjects/GameProject/game_assets/players/generic_char_v0.2/generic_char_v0.2/png/blue/char_green_1.png'
+    'generic_blue':'C:/Users/lucas.paula_kovi/VSCodeProjects/MyOwnProjects/Indie-Game/game_assets/players/generic_char_v0.2/generic_char_v0.2/png/blue/char_blue_1.png',
+    'generic_red':'C:/Users/lucas.paula_kovi/VSCodeProjects/MyOwnProjects/Indie-Game/game_assets/players/generic_char_v0.2/generic_char_v0.2/png/png/red/char_red_1.png',
+    'generic_green':'C:/Users/lucas.paula_kovi/VSCodeProjects/MyOwnProjects/Indie-Game/game_assets/players/generic_char_v0.2/generic_char_v0.2/png/green/char_green_1.png',
+    'generic_green':'C:/Users/lucas.paula_kovi/VSCodeProjects/MyOwnProjects/Indie-Game/game_assets/players/generic_char_v0.2/generic_char_v0.2/png/purple/char_purple_1.png'
 }
 
 sprite_sheet_image = pygame.image.load(sprites['generic_blue']).convert_alpha()
